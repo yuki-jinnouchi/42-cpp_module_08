@@ -20,6 +20,6 @@ docs/
 **/.devcontainer
 
 # Project files
-./ex00
-./ex01
-./ex02
+*/ex00
+*/ex01
+*/ex02
