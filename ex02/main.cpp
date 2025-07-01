@@ -23,8 +23,6 @@ int main() {
   testIteratorFunctionality();
   std::cout << "\n=== std::stack Compatibility Tests ===" << std::endl;
   testStdStackCompatibility();
-  std::cout << "\n=== Required Example from Subject ===" << std::endl;
-  runRequiredExample();
   return 0;
 }
 
@@ -162,13 +160,4 @@ void testStdStackCompatibility() {
   another_mstack = mstack;
   std::cout << "Assigned MutantStack size: " << another_mstack.size()
             << std::endl;
-}
-
-void runRequiredExample() {
-  std::cout << "Running required example from subject..." << std::endl;
-  std::cout << "--- MutantStack output ---" << std::endl;
-  given_main();
-
-  std::cout << "\n--- std::list equivalent output ---" << std::endl;
-  given_main_list();
 }
